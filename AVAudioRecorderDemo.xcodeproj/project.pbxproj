@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F1313EA2026D83000696C74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1313E92026D83000696C74 /* AppDelegate.m */; };
+		6F1313ED2026D83000696C74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1313EC2026D83000696C74 /* ViewController.m */; };
+		6F1313F02026D83000696C74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F1313EE2026D83000696C74 /* Main.storyboard */; };
+		6F1313F22026D83000696C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1313F12026D83000696C74 /* Assets.xcassets */; };
+		6F1313F52026D83000696C74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F1313F32026D83000696C74 /* LaunchScreen.storyboard */; };
+		6F1313F82026D83000696C74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1313F72026D83000696C74 /* main.m */; };
+		6F1314022026D83000696C74 /* AVAudioRecorderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1314012026D83000696C74 /* AVAudioRecorderDemoTests.m */; };
+		6F13140D2026D83000696C74 /* AVAudioRecorderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F13140C2026D83000696C74 /* AVAudioRecorderDemoUITests.m */; };
+		6F13141C202702B800696C74 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F13141B202702B800696C74 /* AVFoundation.framework */; };
+		6F13141F20272AA500696C74 /* THRecorderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F13141E20272AA500696C74 /* THRecorderController.m */; };
+		6F1314222027F56200696C74 /* THMemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1314202027F56200696C74 /* THMemo.m */; };
+		6F1314242027F5C200696C74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1314232027F5C200696C74 /* UIKit.framework */; };
+		6F1314262027F5D200696C74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1314252027F5D200696C74 /* CoreGraphics.framework */; };
+		6F131429202807B000696C74 /* THLevelPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F131428202807B000696C74 /* THLevelPair.m */; };
+		6F1314312028086700696C74 /* THLevelMeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F13142D2028086600696C74 /* THLevelMeterView.m */; };
+		6F1314322028086700696C74 /* THMeterTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F13142E2028086700696C74 /* THMeterTable.m */; };
+		6F1314332028086700696C74 /* THLevelMeterColorThreshold.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1314302028086700696C74 /* THLevelMeterColorThreshold.m */; };
+		6F13143A202825DA00696C74 /* THMemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F131438202825DA00696C74 /* THMemoCell.m */; };
+		6F13143B202825DA00696C74 /* THMemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F131439202825DA00696C74 /* THMemoCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F1313FE2026D83000696C74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F1313DD2026D83000696C74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F1313E42026D83000696C74;
+			remoteInfo = AVAudioRecorderDemo;
+		};
+		6F1314092026D83000696C74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F1313DD2026D83000696C74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F1313E42026D83000696C74;
+			remoteInfo = AVAudioRecorderDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F1313E52026D83000696C74 /* AVAudioRecorderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVAudioRecorderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1313E82026D83000696C74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F1313E92026D83000696C74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F1313EB2026D83000696C74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F1313EC2026D83000696C74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F1313EF2026D83000696C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F1313F12026D83000696C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F1313F42026D83000696C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F1313F62026D83000696C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F1313F72026D83000696C74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F1313FD2026D83000696C74 /* AVAudioRecorderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVAudioRecorderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1314012026D83000696C74 /* AVAudioRecorderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudioRecorderDemoTests.m; sourceTree = "<group>"; };
+		6F1314032026D83000696C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F1314082026D83000696C74 /* AVAudioRecorderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVAudioRecorderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F13140C2026D83000696C74 /* AVAudioRecorderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudioRecorderDemoUITests.m; sourceTree = "<group>"; };
+		6F13140E2026D83000696C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F13141B202702B800696C74 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6F13141D20272AA500696C74 /* THRecorderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THRecorderController.h; sourceTree = "<group>"; };
+		6F13141E20272AA500696C74 /* THRecorderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THRecorderController.m; sourceTree = "<group>"; };
+		6F1314202027F56200696C74 /* THMemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THMemo.m; sourceTree = "<group>"; };
+		6F1314212027F56200696C74 /* THMemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THMemo.h; sourceTree = "<group>"; };
+		6F1314232027F5C200696C74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F1314252027F5D200696C74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F131427202807B000696C74 /* THLevelPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THLevelPair.h; sourceTree = "<group>"; };
+		6F131428202807B000696C74 /* THLevelPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THLevelPair.m; sourceTree = "<group>"; };
+		6F13142B2028086600696C74 /* THMeterTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THMeterTable.h; sourceTree = "<group>"; };
+		6F13142C2028086600696C74 /* THLevelMeterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THLevelMeterView.h; sourceTree = "<group>"; };
+		6F13142D2028086600696C74 /* THLevelMeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THLevelMeterView.m; sourceTree = "<group>"; };
+		6F13142E2028086700696C74 /* THMeterTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THMeterTable.m; sourceTree = "<group>"; };
+		6F13142F2028086700696C74 /* THLevelMeterColorThreshold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THLevelMeterColorThreshold.h; sourceTree = "<group>"; };
+		6F1314302028086700696C74 /* THLevelMeterColorThreshold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THLevelMeterColorThreshold.m; sourceTree = "<group>"; };
+		6F131437202825DA00696C74 /* THMemoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THMemoCell.h; sourceTree = "<group>"; };
+		6F131438202825DA00696C74 /* THMemoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THMemoCell.m; sourceTree = "<group>"; };
+		6F131439202825DA00696C74 /* THMemoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = THMemoCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F1313E22026D83000696C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1314262027F5D200696C74 /* CoreGraphics.framework in Frameworks */,
+				6F1314242027F5C200696C74 /* UIKit.framework in Frameworks */,
+				6F13141C202702B800696C74 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1313FA2026D83000696C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1314052026D83000696C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F1313DC2026D83000696C74 = {
+			isa = PBXGroup;
+			children = (
+				6F1313E72026D83000696C74 /* AVAudioRecorderDemo */,
+				6F1314002026D83000696C74 /* AVAudioRecorderDemoTests */,
+				6F13140B2026D83000696C74 /* AVAudioRecorderDemoUITests */,
+				6F1313E62026D83000696C74 /* Products */,
+				6F13141A202702B800696C74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F1313E62026D83000696C74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F1313E52026D83000696C74 /* AVAudioRecorderDemo.app */,
+				6F1313FD2026D83000696C74 /* AVAudioRecorderDemoTests.xctest */,
+				6F1314082026D83000696C74 /* AVAudioRecorderDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F1313E72026D83000696C74 /* AVAudioRecorderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6F13142A2028084600696C74 /* leaveMeter */,
+				6F131427202807B000696C74 /* THLevelPair.h */,
+				6F131428202807B000696C74 /* THLevelPair.m */,
+				6F1314212027F56200696C74 /* THMemo.h */,
+				6F1314202027F56200696C74 /* THMemo.m */,
+				6F1313E82026D83000696C74 /* AppDelegate.h */,
+				6F1313E92026D83000696C74 /* AppDelegate.m */,
+				6F1313EB2026D83000696C74 /* ViewController.h */,
+				6F1313EC2026D83000696C74 /* ViewController.m */,
+				6F1313EE2026D83000696C74 /* Main.storyboard */,
+				6F1313F12026D83000696C74 /* Assets.xcassets */,
+				6F1313F32026D83000696C74 /* LaunchScreen.storyboard */,
+				6F1313F62026D83000696C74 /* Info.plist */,
+				6F1313F72026D83000696C74 /* main.m */,
+				6F13141D20272AA500696C74 /* THRecorderController.h */,
+				6F13141E20272AA500696C74 /* THRecorderController.m */,
+				6F131437202825DA00696C74 /* THMemoCell.h */,
+				6F131438202825DA00696C74 /* THMemoCell.m */,
+				6F131439202825DA00696C74 /* THMemoCell.xib */,
+			);
+			path = AVAudioRecorderDemo;
+			sourceTree = "<group>";
+		};
+		6F1314002026D83000696C74 /* AVAudioRecorderDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F1314012026D83000696C74 /* AVAudioRecorderDemoTests.m */,
+				6F1314032026D83000696C74 /* Info.plist */,
+			);
+			path = AVAudioRecorderDemoTests;
+			sourceTree = "<group>";
+		};
+		6F13140B2026D83000696C74 /* AVAudioRecorderDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F13140C2026D83000696C74 /* AVAudioRecorderDemoUITests.m */,
+				6F13140E2026D83000696C74 /* Info.plist */,
+			);
+			path = AVAudioRecorderDemoUITests;
+			sourceTree = "<group>";
+		};
+		6F13141A202702B800696C74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F1314252027F5D200696C74 /* CoreGraphics.framework */,
+				6F1314232027F5C200696C74 /* UIKit.framework */,
+				6F13141B202702B800696C74 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F13142A2028084600696C74 /* leaveMeter */ = {
+			isa = PBXGroup;
+			children = (
+				6F13142F2028086700696C74 /* THLevelMeterColorThreshold.h */,
+				6F1314302028086700696C74 /* THLevelMeterColorThreshold.m */,
+				6F13142C2028086600696C74 /* THLevelMeterView.h */,
+				6F13142D2028086600696C74 /* THLevelMeterView.m */,
+				6F13142B2028086600696C74 /* THMeterTable.h */,
+				6F13142E2028086700696C74 /* THMeterTable.m */,
+			);
+			path = leaveMeter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F1313E42026D83000696C74 /* AVAudioRecorderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F1314112026D83000696C74 /* Build configuration list for PBXNativeTarget "AVAudioRecorderDemo" */;
+			buildPhases = (
+				6F1313E12026D83000696C74 /* Sources */,
+				6F1313E22026D83000696C74 /* Frameworks */,
+				6F1313E32026D83000696C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVAudioRecorderDemo;
+			productName = AVAudioRecorderDemo;
+			productReference = 6F1313E52026D83000696C74 /* AVAudioRecorderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F1313FC2026D83000696C74 /* AVAudioRecorderDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F1314142026D83000696C74 /* Build configuration list for PBXNativeTarget "AVAudioRecorderDemoTests" */;
+			buildPhases = (
+				6F1313F92026D83000696C74 /* Sources */,
+				6F1313FA2026D83000696C74 /* Frameworks */,
+				6F1313FB2026D83000696C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F1313FF2026D83000696C74 /* PBXTargetDependency */,
+			);
+			name = AVAudioRecorderDemoTests;
+			productName = AVAudioRecorderDemoTests;
+			productReference = 6F1313FD2026D83000696C74 /* AVAudioRecorderDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F1314072026D83000696C74 /* AVAudioRecorderDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F1314172026D83000696C74 /* Build configuration list for PBXNativeTarget "AVAudioRecorderDemoUITests" */;
+			buildPhases = (
+				6F1314042026D83000696C74 /* Sources */,
+				6F1314052026D83000696C74 /* Frameworks */,
+				6F1314062026D83000696C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F13140A2026D83000696C74 /* PBXTargetDependency */,
+			);
+			name = AVAudioRecorderDemoUITests;
+			productName = AVAudioRecorderDemoUITests;
+			productReference = 6F1314082026D83000696C74 /* AVAudioRecorderDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F1313DD2026D83000696C74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yuanjunxiao;
+				TargetAttributes = {
+					6F1313E42026D83000696C74 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6F1313FC2026D83000696C74 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F1313E42026D83000696C74;
+					};
+					6F1314072026D83000696C74 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F1313E42026D83000696C74;
+					};
+				};
+			};
+			buildConfigurationList = 6F1313E02026D83000696C74 /* Build configuration list for PBXProject "AVAudioRecorderDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F1313DC2026D83000696C74;
+			productRefGroup = 6F1313E62026D83000696C74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F1313E42026D83000696C74 /* AVAudioRecorderDemo */,
+				6F1313FC2026D83000696C74 /* AVAudioRecorderDemoTests */,
+				6F1314072026D83000696C74 /* AVAudioRecorderDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F1313E32026D83000696C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1313F52026D83000696C74 /* LaunchScreen.storyboard in Resources */,
+				6F13143B202825DA00696C74 /* THMemoCell.xib in Resources */,
+				6F1313F22026D83000696C74 /* Assets.xcassets in Resources */,
+				6F1313F02026D83000696C74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1313FB2026D83000696C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1314062026D83000696C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F1313E12026D83000696C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1313ED2026D83000696C74 /* ViewController.m in Sources */,
+				6F1313F82026D83000696C74 /* main.m in Sources */,
+				6F1314322028086700696C74 /* THMeterTable.m in Sources */,
+				6F13143A202825DA00696C74 /* THMemoCell.m in Sources */,
+				6F1314312028086700696C74 /* THLevelMeterView.m in Sources */,
+				6F131429202807B000696C74 /* THLevelPair.m in Sources */,
+				6F1313EA2026D83000696C74 /* AppDelegate.m in Sources */,
+				6F1314222027F56200696C74 /* THMemo.m in Sources */,
+				6F13141F20272AA500696C74 /* THRecorderController.m in Sources */,
+				6F1314332028086700696C74 /* THLevelMeterColorThreshold.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1313F92026D83000696C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1314022026D83000696C74 /* AVAudioRecorderDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1314042026D83000696C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F13140D2026D83000696C74 /* AVAudioRecorderDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F1313FF2026D83000696C74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F1313E42026D83000696C74 /* AVAudioRecorderDemo */;
+			targetProxy = 6F1313FE2026D83000696C74 /* PBXContainerItemProxy */;
+		};
+		6F13140A2026D83000696C74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F1313E42026D83000696C74 /* AVAudioRecorderDemo */;
+			targetProxy = 6F1314092026D83000696C74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F1313EE2026D83000696C74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F1313EF2026D83000696C74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F1313F32026D83000696C74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F1313F42026D83000696C74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F13140F2026D83000696C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F1314102026D83000696C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F1314122026D83000696C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFHY8Z75E6;
+				INFOPLIST_FILE = AVAudioRecorderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuanjunxiao.AVAudioRecorderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F1314132026D83000696C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFHY8Z75E6;
+				INFOPLIST_FILE = AVAudioRecorderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuanjunxiao.AVAudioRecorderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F1314152026D83000696C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AVAudioRecorderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuanjunxiao.AVAudioRecorderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVAudioRecorderDemo.app/AVAudioRecorderDemo";
+			};
+			name = Debug;
+		};
+		6F1314162026D83000696C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AVAudioRecorderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuanjunxiao.AVAudioRecorderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVAudioRecorderDemo.app/AVAudioRecorderDemo";
+			};
+			name = Release;
+		};
+		6F1314182026D83000696C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AVAudioRecorderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuanjunxiao.AVAudioRecorderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AVAudioRecorderDemo;
+			};
+			name = Debug;
+		};
+		6F1314192026D83000696C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AVAudioRecorderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuanjunxiao.AVAudioRecorderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AVAudioRecorderDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F1313E02026D83000696C74 /* Build configuration list for PBXProject "AVAudioRecorderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F13140F2026D83000696C74 /* Debug */,
+				6F1314102026D83000696C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F1314112026D83000696C74 /* Build configuration list for PBXNativeTarget "AVAudioRecorderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1314122026D83000696C74 /* Debug */,
+				6F1314132026D83000696C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F1314142026D83000696C74 /* Build configuration list for PBXNativeTarget "AVAudioRecorderDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1314152026D83000696C74 /* Debug */,
+				6F1314162026D83000696C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F1314172026D83000696C74 /* Build configuration list for PBXNativeTarget "AVAudioRecorderDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1314182026D83000696C74 /* Debug */,
+				6F1314192026D83000696C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F1313DD2026D83000696C74 /* Project object */;
+}
